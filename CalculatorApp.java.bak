@@ -1,0 +1,45 @@
+class Calculator
+{
+	int num1;
+	int num2;
+	void add()
+	{
+		int num3=num1+num2;
+		System.out.println("Addition Result is:"+num3);
+	}
+	 void sub()
+	{
+		 int num3=num1-num2;
+		 System.out.println("Subtraction Result is:"+num3);
+	}
+	void mul()
+	{
+		int num3=num1*num2;
+		System.out.println("Multiplication Result is:"+num3);
+	}
+	void div()
+	{
+		int num3=num1/num2;
+		System.out.println("Division Result is:"+num3);
+	}
+}
+class CalculatorApp
+
+
+
+{
+	public static void main(String[] args)
+	{
+		Calculator calci=new Calculator();
+		calci.num1=15;
+		calci.num2=3;
+		calci.add();
+		calci.sub();
+		calci.mul();
+		calci.div();
+	}
+}
+=
+
+
+

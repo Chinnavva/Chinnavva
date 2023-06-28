@@ -1,0 +1,17 @@
+class Demo 
+{
+	char a;
+	int b;
+	float c;
+	boolean d;
+	void display()
+	{
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+}
+
+
+
